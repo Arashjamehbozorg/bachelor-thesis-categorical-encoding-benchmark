@@ -1,0 +1,7 @@
+encoder,algorithm,rmse_mean,rmse_std
+OneHotEncoder,Ridge,28654.597811536853,3868.6418075377537
+OneHotEncoder,RandomForest,25976.84952267113,1209.4085753680235
+TargetEncoder,Ridge,29526.65177895027,3161.4613835424734
+TargetEncoder,RandomForest,25757.68404579807,1276.7558098863628
+OrdinalEncoder,Ridge,,
+OrdinalEncoder,RandomForest,25699.110449265216,1133.4806711026056
