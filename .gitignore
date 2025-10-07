@@ -1,5 +1,21 @@
 # macOS system files
 .DS_Store
+.DS_Store?
+._*
 
 # Jupyter notebook checkpoints
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# CatBoost training files
+catboost_info/
+*/catboost_info/*
+learn/
+learn_error.tsv
+time_left.tsv
+catboost_training.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
